@@ -87,7 +87,7 @@ html, body {
   left: 20px;
   width: 180px;
   height: 180px;
-  background: url("img/sprite.png") no-repeat;
+  background: #ff0000 url("img/sprite.png") no-repeat;
 
 }
 
