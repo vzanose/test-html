@@ -4,6 +4,7 @@ html, body {
   min-height: 1750px;
   margin: 0;
   padding: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .clearfix::after {
@@ -13,8 +14,11 @@ html, body {
 }
 
 .main-header {
-  background-color: red;
+  background-color: #000000;
   margin-bottom: 60px;
+  color: #fff;
+  text-transform: uppercase;
+
 }
 
 .container {
@@ -29,11 +33,64 @@ html, body {
   float: left;
 }
 
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.main-navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 25px 20px;
+  display: block;
+}
+
+.main-navigation a:hover {
+  background-color: #222222;
+}
+
 .user-block {
   width: 140px;
-  min-height: 70px;
   float: right;
 }
+
+.login {
+  position: relative;
+  display: inline-block;
+  padding: 25px 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.login:hover {
+  background-color: #222222;
+}
+
+.login::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  width: 180px;
+  height: 180px;
+  background: url("img/sprite.png") no-repeat;
+
+}
+
 
 .index-logo {
   width: 368px;
