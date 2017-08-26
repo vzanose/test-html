@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   background: url("../img/bg.jpg") no-repeat top center;
 }
@@ -52,7 +52,7 @@ body {
 .main-navigation a {
   color: #ffffff;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 700;
   padding: 25px 20px;
   display: block;
   transition: background 0.2s ease;
@@ -77,7 +77,7 @@ body {
   vertical-align: top;
   color: #ffffff;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 700;
 
 }
 
@@ -165,7 +165,7 @@ body {
 
 .index-content {
   position: relative;
-  padding: 50px 80px 60px;
+  padding: 50px 80px;
   margin-bottom: 35px;
   background: #f8f5f2 url("../img/ptrn-biege.jpg") repeat;
 }
@@ -197,7 +197,8 @@ body {
 h2.index-content-title {
   font-size: 30px;
   line-height: 42px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .news-preview {
@@ -206,13 +207,14 @@ h2.index-content-title {
 }
 
 .news-preview li {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .news-preview p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
+  padding-right: 35px;
 }
 
 .index-content p {
@@ -223,54 +225,105 @@ h2.index-content-title {
 
 .btn {
   display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-right: 15px;
   padding: 10px 20px;
-  margin-top: 20px;
+
   font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
   font-size: 14px;
   line-height: 24px;
   text-decoration: none;
+  text-transform: uppercase;
+
   color: #ffffff;
   background-color: #000000;
   border: none;
-  text-transform: uppercase;
-  margin-right: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.2s ease;
   cursor: pointer;
 }
 
-.btn:hover {
-  background-color: #222222;
+.btn:hover,
+.btn:active {
+  background-color: #663d15;
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+.btn .disabled,
+.btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.btn .disabled:hover,
+.btn:disabled:hover {
+  background-color: #000;
+  transform: none;
+  box-shadow: none;
+}
+
+.gallery {
+  height: 260px;
+  position: relative;
+}
+
 .gallery-content {
+  height: 164px;
   padding: 0;
-  margin: 10px 0 0;
+  margin: 0;
 }
 
 .gallery-content img {
-  box-sizing: border-box;
-  border: 10px solid #ffffff;
+
+  background: #ccc;
+  border: 7px solid #ffffff;
 }
 
-appointment-form {
+.gallery .btn {
+  position: absolute;
+  width: 140px;
+  bottom: 0;
+  margin: 0px;
+}
+
+.gallery-prev {
+  left: 0;
+}
+
+.gallery-next {
+  right: 0;
+
+}
+
+.appointment-form {
   font-size: 0;
 }
 
-input {
-  display: inline-block;
-  box-sizing: border-box;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-top: 0;
-  margin-left: 0;
+.appointment-form input {
+  float: left;
+  width: 106px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 7px 15px;
+
   font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
+  font-weight: 800;
   font-size: 14px;
   line-height: 24px;
-  width: 140px;
+
+  background: #f9f6f3;
   border: 2px solid #000000;
+  outline: none;
+}
+
+.appointment-form input:focus {
+  background: #ffffff;
+  border: 2px solid #663d15;
 }
 
 input[name="time"],
@@ -285,7 +338,7 @@ input[name="phone"] {
 .news-preview time {
   font-size: 14px;
   text-transform: none;
-  font-weight: 300;
+  font-weight: 400;
   opacity: 0.4;
 }
 
@@ -301,17 +354,73 @@ input[name="phone"] {
   float: left;
   width: 320px;
   margin-right: 60px;
-  background: red;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  transition: border 0.2s ease;
+}
+
+.footer-contacts a:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 
 .footer-social {
   float: left;
   width: 180px;
-  background: red;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-social p {
+  margin: 0;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 15px 4px 0 0;
+
+  font-size: 0;
+  text-decoration: none;
+
+  background: #000000 url('../img/sprite.png') no-repeat;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.1s ease;
+}
+
+.social-btn:hover {
+  background-color: #663d15;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn-vk {
+  background-position: -80px 0;
+}
+
+.social-btn-fb {
+  background-position: -120px 0;
+}
+
+.social-btn-inst {
+  background-position: -160px 0;
 }
 
 .footer-copyright {
   float: right;
-  width: 140px;
-  background: red;
+  max-width: 160px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-copyright p {
+  margin: 0;
 }
