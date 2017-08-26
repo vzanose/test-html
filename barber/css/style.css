@@ -62,6 +62,35 @@ body {
   background-color: #222222;
 }
 
+.main-navigation .logo-inner {
+  float: left;
+  margin: 0;
+  width: 111px;
+  height: 20px;
+  padding-top: 22px;
+}
+
+.main-navigation .logo-inner:hover {
+  background: none;
+}
+
+.main-navigation .active {
+  position: relative;
+}
+
+.main-navigation .active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+
+
+  width: 100%;
+  height: 5px;
+  background: #ffffff;
+}
+
 .user-block {
   width: 140px;
   float: right;
@@ -345,8 +374,9 @@ input[name="phone"] {
 
 .main-footer {
   margin-top: 65px;
+  margin-bottom: 0;
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   background: #444444 url("../img/ptrn-footer.jpg") repeat;
 }
 
