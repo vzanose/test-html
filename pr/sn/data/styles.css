@@ -11,6 +11,8 @@
 }
 .box_2 {
 }
+.ellipse {
+}
 .placeholder {
 }
 .button {
@@ -66,8 +68,13 @@
 .paragraph {
   text-align:left;
 }
+.line {
+}
 .text_field {
   color:#000000;
+  text-align:left;
+}
+.checkbox {
   text-align:left;
 }
 .html_button {
