@@ -1,5 +1,8 @@
 article {
 	width:560px;
 	margin: 40px auto 0;
-
 }
+
+h1 {
+  font-family: "fira-mono",monospace;
+  }
