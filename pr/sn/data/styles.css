@@ -25,6 +25,8 @@
 .link_button {
   color:#169BD5;
 }
+.image {
+}
 .heading_1 {
   font-family:'ArialMT', 'Arial';
   font-weight:bold;
@@ -91,6 +93,10 @@
   text-align:left;
 }
 .droplist {
+  color:#000000;
+  text-align:left;
+}
+.list_box {
   color:#000000;
   text-align:left;
 }
