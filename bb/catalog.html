@@ -37,7 +37,41 @@
 
     <section class="filters">
       <h2 class="visually-hidden">Фильтры товаров</h2>
-      <form action="catalog.html" method="post">
+      <form class="filter" action="catalog.html" method="get">
+        <fieldset>
+          <legend>Производители:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-baxter-of-california" type="checkbox" name="baxter-of-california" checked>
+                <label for="filter-baxter-of-california">Baxter of California</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-mr-natty" type="checkbox" name="mr-natty">
+                <label for="filter-mr-natty">Mr Natty</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-suavecito" type="checkbox" name="suavecito" checked>
+                <label for="filter-suavecito">Suavecito</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-malin-goetz" type="checkbox" name="malin-goetz">
+                <label for="filter-malin-goetz">Malin+Goetz</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-murrays" type="checkbox" name="murrays">
+                <label for="filter-murrays">Murray's</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" id="filter-american-crew" type="checkbox" name="american-crew" checked>
+                <label for="filter-american-crew">American Crew</label>
+              </li>
+            </ul>
+
+        </fieldset>
+        <fieldset>
+          <legend>Группы товаров:</legend>
+
+        </fieldset>
         <section class="form-field">
           <h3>Производители:</h3>
           <ul class="brands">
