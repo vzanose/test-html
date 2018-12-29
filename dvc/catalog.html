@@ -36,27 +36,23 @@
       <li><a href="#">Каталог товаров</a></li>
       <li class="breadcrumbs-current">Моноподы для селфи</li>
     </ul>
-    <form class="sort" action="catalog.html" method="get">
-      <fieldset>
-        <legend>Сортировка:</legend>
+    <section class="sort-order">
+        <p>Сортировка:</p>
           <ul>
             <li class="sort-option">
-              <input class="visually-hidden filter-input filter-input-radio" id="sort-price" type="radio" name="sort-group" checked>
-              <label for="sort-price">По цене</label>
+              <a href="#">По цене</a>
             </li>
             <li class="sort-option">
-              <input class="visually-hidden filter-input filter-input-radio" id="sort-type" type="radio" name="sort-group">
-              <label for="sort-type">По типу</label>
+              <a href="#">По типу</a>
             </li>
             <li class="sort-option">
-              <input class="visually-hidden filter-input filter-input-radio" id="sort-popular" type="radio" name="sort-group">
-              <label for="sort-popular">По популярности</label>
+              <a href="#">По популярности</a>
             </li>
           </ul>
-      </fieldset>
-      <button class="sort-control sort-from-big" type="button" name="button">от большего</button>
-      <button class="sort-control sort-from-small" type="button" name="button">от меньшего</button>
-      </form>
+      </p>
+      <a class="sort-control sort-from-big" href="#">от большего</button>
+      <a class="sort-control sort-from-small" href="#">от меньшего</button>
+      </section>
 
       <form class="filter" action="catalog.html" method="get">
         <fieldset>
