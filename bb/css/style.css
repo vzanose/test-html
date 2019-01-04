@@ -5,13 +5,98 @@ body {
   font-family: 'IBM Plex Sans', Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 500px;
+  font-weight: 500;
   color: #111111;
 
-  background-color: lightblue;
+  background-color: #ADD8E6;
 }
 
 a {
   text-decoration: none;
 }
 
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #000000;
+  vertical-align: middle;
+  background-color: rgba(173, 216, 230, 0.5);
+
+  border:none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: rgba(173, 216, 230, 0.3);
+}
+
+
+.main-navigation {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #111111;
+  background-color: #ffffff;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #111111;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #555555;
+}
+
+.feature-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.index-columns {
+  background-color: #ffffff;
+}
+
+.index-columns h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.news-list {
+  list-style: none;
+}
+
+.news-item time {
+  color: #555555;
+  font-size: 12px;
+}
+
+.appointment-item input {
+  font: inherit;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #555555; 
+}
