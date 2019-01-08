@@ -11,6 +11,10 @@ body {
   background-color: #ADD8E6;
 }
 
+.inner-page {
+  background-color: #fff;
+}
+
 a {
   text-decoration: none;
 }
@@ -167,4 +171,92 @@ a {
 .restore:hover,
 .restore:focus {
   text-decoration: none;
+}
+
+.page-title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #333333;
+}
+
+.breadcrumbs-current {
+  color: #999999;
+}
+
+.price-list-title h2 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 300;
+}
+
+.filters legend {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters ul {
+  list-style: none;
+}
+
+.filter-option label:hover,
+.filter-option label:focus {
+  color: #555555;
+  cursor: pointer;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item a {
+  color: #333333;
+}
+
+.catalog-item h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.catalog-item-price b {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.catalog-item-price a {
+  font-size: 16px;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  font-size: 20px;
+  font-weight: 300;
+  color: #333333;
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+  color: #000000;
+  background-color: rgba(173, 216, 230, 0.3);
+}
+
+.pagination-item-current a {
+  color: #999999;
 }
