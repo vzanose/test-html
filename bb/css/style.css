@@ -100,3 +100,71 @@ a {
   border: none;
   border-bottom: 1px solid #555555; 
 }
+
+.appointment-item input:focus,
+.appointment-item input:hover {
+  border-bottom: 1px solid #111111;
+}
+
+.footer-contacts a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #333333;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.modal {
+  background-color: #ffffff;
+}
+
+.modal h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #555555; 
+}
+
+.login-form input:focus {
+  border-bottom: 1px solid #111111;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #555555;
+}
+
+.restore {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
