@@ -211,10 +211,15 @@ a {
   list-style: none;
 }
 
-.filter-option label:hover,
-.filter-option label:focus {
+.filter-input:hover + label,
+.filter-input:focus + label {
   color: #555555;
   cursor: pointer;
+}
+
+.filter-input:disabled + label {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 
 .catalog-list {
@@ -223,6 +228,11 @@ a {
 
 .catalog-item a {
   color: #333333;
+}
+
+.catalog-item a:hover,
+.catalog-item a:focus {
+  color: #555555;
 }
 
 .catalog-item h3 {
@@ -252,11 +262,60 @@ a {
 }
 
 .pagination-item a:hover,
-.pagination-item a:focus {
+.pagination-item a:focus,
+.pagination-item a:active {
   color: #000000;
   background-color: rgba(173, 216, 230, 0.3);
 }
 
 .pagination-item-current a {
   color: #999999;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: #999999;
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.product-article {
+  color: #999999;
+  text-align: right;
+}
+
+.product-info h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #333333;
+}
+
+.product-info ul {
+  list-style: none;
+}
+
+.price-list-products h2 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.price-list-products ul {
+  list-style: none;
+}
+
+.price-list-prices h2 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.price-list-table td:nth-child(even) {
+  text-align: center; 
+}
+
+.price-list-info h2 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
 }
