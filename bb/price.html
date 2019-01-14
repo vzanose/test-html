@@ -11,7 +11,7 @@
 </head>
 <body class="inner-page">
   <header class="main-header">
-    <nav class="main-navigation">
+    <nav class="main-navigation container">
       <a class="main-header-logo" href="index.html">
         <img src="img/logo-dark.svg" alt="Логотип" width="111">
       </a>
@@ -34,64 +34,70 @@
       <li class="breadcrumbs-current">Прайс-лист</li>
     </ul>
     <section class="price-list-title">
-      <h2>Истинно мужская классика</h2>
+        <h2>Истинно мужская классика</h2>
     </section>
-    <section class="price-list-products">
-      <h2>Мы используем только лучшие средства:</h2>
-      <ul class="price-list-products-list">
-        <li>Baxter of California</li>
-        <li>Mr Natty</li>
-        <li>Suavecito</li>
-        <li>Malin+Goetz</li>
-      </ul>
-    </section>
-    <section class="price-list-prices">
-      <h2>Цены на услуги наших мастеров:</h2>
-      <table class="price-list-table">
-        <tr>
-          <td>Стрижка</td>
-          <td>1500 ₽</td>
-        </tr>
-        <tr>
-          <td>Стрижка бороды</td>
-          <td>500 ₽</td>
-        </tr>
-        <tr>
-          <td>Накрутка усов</td>
-          <td>350 ₽</td>
-        </tr>
-      </table>
-    </section>
+    <div class="price-list-columns">
+      <section class="price-list-products">
+        <h2>Мы используем только лучшие средства:</h2>
+        <ul class="price-list-products-list">
+          <li>Baxter of California</li>
+          <li>Mr Natty</li>
+          <li>Suavecito</li>
+          <li>Malin+Goetz</li>
+        </ul>
+      </section>
+      <section class="price-list-prices">
+          <h2>Цены на услуги наших мастеров:</h2>
+          <table class="price-list-table">
+            <tr>
+              <td>Стрижка</td>
+              <td>1500 ₽</td>
+            </tr>
+            <tr>
+              <td>Стрижка бороды</td>
+              <td>500 ₽</td>
+            </tr>
+            <tr>
+              <td>Накрутка усов</td>
+              <td>350 ₽</td>
+            </tr>
+          </table>
+        </section>
+    </div>    
     <section class="price-list-info">
       <h2>Несколько слов о нас</h2>
-      <p class="price-list-info-first-column">
-        Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
-      </p>
-      <p class="price-list-info-second-column">
-        Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
-      </p>
+      <div class="price-list-info-columns">
+          <p class="price-list-info-first-column">
+              Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
+            </p>
+          <p class="price-list-info-second-column">
+              Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+          </p>
+      </div>
     </section>
   </main>
   <footer class="main-footer">
-    <p class="footer-contacts">
-      Барбершоп Уютный<br>
-      Адрес: г. Санкт-Петербург, Б. Конбшенная, д. 19/8<br>
-      <a href="map.html">Как нас найти</a>
-      Телефоня: +7 (812) 666-02-66
-    </p>
-    <div class="footer-social">
-      <b>Давайте дружить!</b>
-      <ul>
-        <li><a href="#" class="social-button">Вконтакте</a></li>
-        <li><a href="#" class="social-button">Фейсбук</a></li>
-        <li><a href="#" class="social-button">Инстаграм</a></li>
-      </ul>
-    </div>
-    <p class="footer-copyright">
-      <b>Разработано:</b>
-      <a href="#" class="button">Designer</a>
-    </p>
-  </footer>
+      <div class="container">
+          <p class="footer-contacts">
+              Барбершоп Уютный<br>
+              Адрес: г. Санкт-Петербург, Б. Конбшенная, д. 19/8<br>
+              <a href="map.html">Как нас найти</a>
+              Телефон: +7 (812) 666-02-66
+          </p>
+          <div class="footer-social">
+              <b>Давайте дружить!</b>
+              <ul>
+                <li><a href="#" class="social-button">Вконтакте</a></li>
+                <li><a href="#" class="social-button">Фейсбук</a></li>
+                <li><a href="#" class="social-button">Инстаграм</a></li>
+              </ul>
+          </div>
+          <p class="footer-copyright">
+              <b>Разработано:</b>
+              <a href="#" class="button">Designer</a>
+          </p>
+      </div>
+    </footer>
   <section class="modal modal-login">
     <h2>Личный кабинет</h2>
     <p>Введите свой логин и пароль</p>
