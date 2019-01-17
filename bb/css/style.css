@@ -337,17 +337,18 @@ input[thype="radio"].visually-hidden {
 }
 
 .appointment-item input {
-  display: inline-block;
+  flex-grow: 1;
   font: inherit;
   background-color: transparent;
+  padding-bottom: 1px;
   border: none;
-  border-bottom: 1px solid #555555; 
-  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
 }
 
 .appointment-item input:focus,
 .appointment-item input:hover {
-  border-bottom: 1px solid #111111;
+  padding-bottom: 0px;
+  border-bottom: 2px solid #111111;
   outline: none;
 }
 
