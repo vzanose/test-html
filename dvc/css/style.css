@@ -1082,6 +1082,10 @@ input[thype="radio"].visually-hidden {
   background-color: #fff;
 }
 
+.modal-show {
+  display: block;
+}
+
 .form-details {
   display: flex;
   justify-content: space-between;
@@ -1144,6 +1148,27 @@ input[thype="radio"].visually-hidden {
 
 .modal-contact-form .button-cta {
   margin-top: 40px;
+}
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left; 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+}
+
+@keyframes overlay-show {
+  0%    {background-color: rgba(0,0,0,0);}
+  100%  {background-color: rgba(0,0,0,0.5);}
+}
+
+.modal-overlay-show {
+  display: block;
+  animation-name: overlay-show;
+  animation-duration: 0.3s;
 }
 
 /* Catalog page */
