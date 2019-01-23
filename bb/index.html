@@ -247,6 +247,17 @@
         local.Storage.setItem("login", login.value);
       }
     });
+
+    window.addEventListener("keydown", function (evt) {
+      if (evt.keyCode === 27) {
+        evt.preventDefault();
+
+        if (popup.classList.contains("modal-show")) {
+          popup.classList.remove("modal-show");
+          overlay.classList.remove("modal-show");
+        } 
+      }
+    });
     
   </script>
 </body>
