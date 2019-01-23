@@ -1136,8 +1136,6 @@ input[thype="radio"].visually-hidden {
   outline: none;
 }
 
-
-
 .form-field input::placeholder,
 .form-field textarea::placeholder {
   color: #464646;
@@ -1223,13 +1221,16 @@ input[thype="radio"].visually-hidden {
   opacity: 0.3;
 }
 
-.content-wrapper {
+.content-decoration {
   position: relative;
-  display: flex;
-  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgba(0,0,0,0.08) 50%,
+    white 50%
+  );
 }
 
-.content-wrapper::before {
+.content-decoration::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1237,6 +1238,22 @@ input[thype="radio"].visually-hidden {
   height: 68px;
   background-color: rgba(0,0,0,0.08);
 }
+
+.content-decoration .container {
+  background-image: linear-gradient(
+    to right,
+    transparent 328px,
+    white 328px
+  );
+}
+
+.content-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 /* Catalog — Filters */
 
@@ -1246,7 +1263,7 @@ input[thype="radio"].visually-hidden {
   margin-right: 72px;
   padding: 0;
   padding-left: 60px;
-  background-color: rgba(0,0,0,0.08);
+  /* background-color: rgba(0,0,0,0.08); */
 }
 
 .filters h2 {

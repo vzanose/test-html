@@ -970,6 +970,10 @@ input[thype="radio"].visually-hidden {
   transform: translate(-50%, -50%)
 }
 
+.modal-show {
+  display: block;
+}
+
 .modal-login h2 {
   margin: 0;
   margin-bottom: 16px;
