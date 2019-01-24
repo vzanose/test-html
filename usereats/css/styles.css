@@ -1,3 +1,255 @@
+/* Overal elements */
+
 body {
   font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: hsl(0, 0%, 11%);
 }
+
+a {
+  text-decoration:none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden,
+input[type="checkbox"].visually-hidden,
+input[thype="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  box-sizing: border-box;
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: #fff;
+  border: 1px solid hsl(0, 0%, 88%);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  border-color: hsl(0, 0%, 78%);
+}
+
+/* Header */
+
+
+
+/* Main page */
+
+.main-search-input {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main-places h2 {
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.places-item a {
+  color: hsl(0, 0%, 11%);
+}
+
+.places-item .place-title {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.place-features {
+  color: hsl(0, 0%, 38%);
+}
+
+.place-features .place-feature {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.places-item .place-delivery-time {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* Place page */
+
+.hero-banner h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+}
+
+.hero-banner .place-delivery-time {
+  font-size: 13px;
+  line-height: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.tabs-item a {
+  color: hsl(0, 0%, 38%);
+  font-weight: 400;
+}
+
+.tabs-item a:hover,
+.tabs-item a:focus {
+  color: hsl(0, 0%, 15%);
+}
+
+.tabs-item a:active {
+  color: hsl(0, 0%, 11%);
+}
+
+.tabs-item-current a,
+.tabs-item-current a:hover,
+.tabs-item-current a:focus,
+.tabs-item-current a:active {
+  color: hsl(117, 41%, 45%);
+}
+
+.place-menu h2 {
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.menu-item a {
+  color: hsl(0, 0%, 11%);
+}
+
+.appetizer-info .appetizer-subtitle {
+  font-size: 13px;
+  line-height: 20px;
+  color: hsl(0, 0%, 38%);
+}
+
+.appetizer-info .appetizer-price {
+  font-weight: 500;
+}
+
+
+
+/* Footer */
+
+.page_footer {
+  background-color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+
+.footer-language-select {
+  font-size: inherit;
+}
+
+.footer-social b {
+  font-weight: 400;
+}
+
+.footer-social .social-hash {
+  color: hsl(117, 41%, 45%);
+}
+
+.site-navigation-item a {
+  font-size: 13px;
+  line-height: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.site-navigation-item a:hover,
+.site-navigation-item a:focus {
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.site-navigation-item a:active {
+  color: hsla(0, 0%, 100%, 0.4);
+}
+
+.footer-copyright {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.footer-copyright .copyright-link {
+  color: hsl(0, 0%, 100%);
+}
+
+.footer-copyright .copyright-link:hover,
+.footer-copyright .copyright-link:focus {
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.footer-copyright .copyright-link:active {
+  color: hsla(0, 0%, 100%, 0.4);
+}
+
+/* Button to the top */
+
+.up-link {
+  position: fixed;
+  z-index: 5;
+  right: 16px;
+  bottom: 24px;
+  display: block; 
+  width: 80px;
+  height: 80px;
+  background-color: hsl(117, 41%, 45%);
+  transition: 0.2s ease;
+}
+
+.up-link:hover,
+.up-link:focus {
+  background-color: hsl(117, 41%, 40%);
+}
+
+.up-link:active {
+  background-color: hsl(117, 41%, 35%);
+}
+
+.up-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 26px;
+  margin-top: -13px;
+  margin-left: -8px;
+  background-image: url(../img/ic_arrow_up.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 0.2s ease;
+}
+
+.up-link:hover::before,
+.up-link:focus::before {
+  margin-top: -16px;
+}
+

@@ -11,7 +11,7 @@
 </head>
 <body>
   <head class="page_header">
-    <div class="logo"><a href="#"><img src="./img/logo.svg" width="121" height="13" alt="UserEATS logotype">UberEATS</a></div>
+    <div class="logo"><a href="#"><img src="./img/logo.svg" width="121" height="13" alt="UserEATS logotype"><span class="visually-hidden">UberEATS</span></a></div>
     <nav class="main_controls">
       <button class="button button_time">ASAP</button>
       to
@@ -23,11 +23,179 @@
       <a href="#" class="button button_register"><img src="./img/ic_basket.svg" width="19" height="22" alt="Shopping cart icon"></a>
     </nav>
   </head>
-  <main>
-
+  <main id="page-top">
+    <div class="main-search">
+      <input class="main-search-input" type="search" id="searchbox" placeholder="Search for restaurant or cuisine">
+    </div>
+    <section class="main-places">
+      <h2>Moscow Restaurants</h2>
+      <ul class="places-list">
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place001.jpg" width="308" height="256" alt="Photo of the 1st restaurant">
+            <p class="place-title">McDonalds Gazetny</p>
+            <ul class="place-features">
+              <li class="place-feature">$$</li>
+              <li class="place-feature">Burgers</li>
+            </ul>
+            <p class="place-delivery-time">25 - 35 Min</p>
+          </a>
+        </li>
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place002.jpg" width="308" height="256" alt="Photo of the 2nd restaurant">
+            <p class="place-title">DimSum & Co — CDM</p>
+            <ul class="place-features">
+              <li class="place-feature">$</li>
+              <li class="place-feature">Japanese</li>
+              <li class="place-feature">Chinese</li>
+              <li class="place-feature">Asian</li>
+            </ul>
+            <p class="place-delivery-time">40 - 50 Min</p>
+          </a>
+        </li>
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place003.jpg" width="308" height="256" alt="Photo of the 3st restaurant">
+            <p class="place-title">Dvizok — Maneznaya</p>
+            <ul class="place-features">
+              <li class="place-feature">$</li>
+              <li class="place-feature">Amerian</li>
+              <li class="place-feature">European</li>
+            </ul>
+            <p class="place-delivery-time">35 - 45 Min</p>
+          </a>
+        </li> 
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place004.jpg" width="308" height="256" alt="Photo of the 4th restaurant">
+            <p class="place-title">NJA — NHA</p>
+            <ul class="place-features">
+              <li class="place-feature">$$</li>
+              <li class="place-feature">Vietnamese</li>
+            </ul>
+            <p class="place-delivery-time">30 - 40 Min</p>
+          </a>
+        </li>
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place005.jpg" width="308" height="256" alt="Photo of the 5th restaurant">
+            <p class="place-title">Dot Zi — Tsvetnoy</p>
+            <ul class="place-features">
+              <li class="place-feature">$$</li>
+              <li class="place-feature">Vietnamese</li>
+            </ul>
+            <p class="place-delivery-time">40 - 50 Min</p>
+          </a>
+        </li>
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place006.jpg" width="308" height="256" alt="Photo of the 6th restaurant">
+            <p class="place-title">Cinnabon</p>
+              <ul class="place-features">
+                <li class="place-feature">$</li>
+                <li class="place-feature">Pastries</li>
+                <li class="place-feature">Desserts</li>
+                <li class="place-feature">Cupcakes</li>
+              </ul>
+              <p class="place-delivery-time">25 - 35 Min</p>
+          </a>
+        </li>
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place007.jpg" width="308" height="256" alt="Photo of the 7th restaurant">
+            <p class="place-title">PIZZELOVE</p>
+            <ul class="place-features">
+              <li class="place-feature">$$</li>
+              <li class="place-feature">Pizza</li>
+            </ul>
+            <p class="place-delivery-time">15 - 25 Min</p>
+          </a>
+        </li>
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place008.jpg" width="308" height="256" alt="Photo of the 8th restaurant">
+            <p class="place-title">Zu cafe — Tverskaya</p>
+            <ul class="place-features">
+              <li class="place-feature">$</li>
+              <li class="place-feature">Japanese</li>
+            </ul>
+            <p class="place-delivery-time">25 - 35 Min</p>
+          </a>
+        </li>
+        <li class="places-item">
+          <a href="place.html">
+            <img src="img/places/place009.jpg" width="308" height="256" alt="Photo of the 9th restaurant">
+            <p class="place-title">Bar BQ Cafe — Maneznaya</p>
+            <ul class="place-features">
+              <li class="place-feature">$$$</li>
+              <li class="place-feature">European</li>
+            </ul>
+            <p class="place-delivery-time">30 - 40 Min</p>
+          </a>
+        </li>
+      </ul>
+    </section>
   </main>
   <footer class="page_footer">
-    
+    <div class="footer-log">
+      <a href="#"><img src="./img/ic_white_logo.svg" width="192" height="20" alt="UserEATS logotype"><span class="visually-hidden">UberEATS</span></a>
+    </div>
+    <section class="footer-navigation">
+      <h2 class="visually-hidden">Footer Navigation</h2>
+      <div class="footer-nav-left">
+        <select class="footer-language-select" name="language-select" id="language-select">
+          <option value="en">English</option>
+          <option value="de">German</option>
+          <option value="es">Spanish</option>
+        </select>
+        <div class="footer-social">
+          <b><span class="social-hash">#</span>UberEats</b>
+          <ul class="footer-social-list">
+            <li class="footer-social-item"><a href="#"><span class="visually-hidden">Our Facebook</span></a></li>
+            <li class="footer-social-item"><a href="#"><span class="visually-hidden">Our Twitter</span></a></li>
+            <li class="footer-social-item"><a href="#"><span class="visually-hidden">Our Instagram</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-site-navigation">
+        <ul class="footer-site-navigation-list">
+          <li class="site-navigation-item">
+            <a href="#">About UberEats</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="#">Become a Delivery Partner</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="#">Become a Restaurant Partner</a>
+          </li>
+        </ul>
+        <ul class="footer-site-navigation-list">
+          <li class="site-navigation-item">
+            <a href="#">See all cities</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="#">Pricing</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="#">Help</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="#">FAQs</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="footer-mobile-store-links">
+      <a class="footer-store store-apple" href="#"><span class="visually-hidden">On the AppStore</span></a>
+      <a class="footer-store store-google" href="#"><span class="visually-hidden">On the PlayMarket</span></a>
+    </div>
+    <div class="footer-copyright">
+      <p class="copyright">© 2017 Uber Technologies Inc.</p>
+      <a class="copyright-link" href="#">Privacy</a>
+      <a class="copyright-link" href="#">Terms</a>
+    </div>
   </footer>
+  <a class="up-link" href="#page-top"><span class="visually-hidden">Go to the Top</span></a>
 </body>
 </html>
