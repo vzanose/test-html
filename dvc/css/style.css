@@ -1036,12 +1036,13 @@ input[thype="radio"].visually-hidden {
   cursor: pointer;
   border: none;
   opacity: 0.6;
+  transition: 0.2s ease;
 }
 
 .popup-close:hover,
 .popup-close:focus {
   opacity: 1;
-  transform: scale(1.05)
+  transform: scale(1.05) rotate(90deg);
 }
 
 .popup-close:active {
@@ -1064,6 +1065,7 @@ input[thype="radio"].visually-hidden {
 .modal-map p {
   margin: 0;
   padding: 0;
+  display: none;
 }
 
 
@@ -1082,8 +1084,26 @@ input[thype="radio"].visually-hidden {
   background-color: #fff;
 }
 
+@keyframes form-show {
+  0%    {transform: translateY(40px);}
+  100%  {transform: translateY(0px);}
+}
+
 .modal-show {
   display: block;
+  animation-name: form-show;
+  animation-duration: 0.2s;
+}
+
+@keyframes shake {
+  0%, 100%                {transform: translateX(0px);}
+  10%, 30%, 50%, 70%, 90% {transform: translateX(10px);}
+  20%, 40%, 60%, 80%      {transform: translateX(-10px);}
+}
+
+.modal-error {
+  animation-name: shake;
+  animation-duration: 0.5s;
 }
 
 .form-details {

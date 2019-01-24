@@ -285,6 +285,28 @@
         </div>
       </div>
   </footer>
-
+  <section class="modal modal-contact-form">
+    <h2 class="visually-hidden">Напишите нам</h2>
+    <form action="index.html" method="post">
+      <div class="form-details">
+        <div class="form-field">
+          <label for="fullname">Ваше имя:</label>
+          <input type="text" name="fullname" id="fullname" placeholder="Имя фамилия">
+        </div>
+        <div class="form-field">
+          <label for="email">Ваш e-mail:</label>
+          <input type="email" name="email" id="email" placeholder="email@example.com">
+        </div>
+      </div> 
+      <div class="form-field">
+        <label for="comment">Текст письма:</label>
+        <textarea name="comment" id="comment" rows="8" cols="80" placeholder="В свободной форме"></textarea>
+      </div>
+      <button class="button-cta" type="submit" name="submit">Отправить</button>
+    </form>
+    <button class="popup-close" type="button">Закрыть</button>
+  </section>
+  <div class="modal-overlay"></div>
+  <script src="js/popup.js"></script>
 </body>
 </html>
