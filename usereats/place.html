@@ -10,163 +10,175 @@
   <title>Traktir Pushkin — UberEATS</title>
 </head>
 <body class="inner-page">
-  <head class="page_header">
-    <div class="logo"><a href="index.html"><img src="./img/logo.svg" width="121" height="13" alt="UserEATS logotype"><span class="visually-hidden">UberEATS</span></a></div>
-    <nav class="main_controls">
-      <button class="button button_time">ASAP</button>
-      to
-      <button class="button button_location">ul. Bolshaya Dmitrovka,22</button>
-    </nav>
-    <nav class="user_controls">
-      <button class="button button_signin">Sign In</button>
-      <button class="button button_register">Register</button>
-      <a href="#" class="button button_register"><img src="./img/ic_basket.svg" width="19" height="22" alt="Shopping cart icon"></a>
-    </nav>
-  </head>
-  <main id="page-top">
+  <header class="page-header" id="page-top">
+    <div class="header-wrapper container">
+      <div class="header-logo"><a href="index.html"><img src="./img/logo.svg" width="121" height="13" alt="UserEATS logotype"><span class="visually-hidden">UberEATS</span></a></div>
+      <nav class="main-controls">
+        <button class="button button-time">ASAP</button>
+        <span>to</span>
+        <button class="button button-location">ul. Bolshaya Dmitrovka,22</button>
+      </nav>
+      <nav class="user-controls">
+        <button class="button button-signin">Sign In</button>
+        <button class="button button-register">Register</button>
+        <a href="#" class="button button-cart"><img src="./img/ic_basket.svg" width="19" height="22" alt="Shopping cart icon"><span class="visually-hidden">Shopping Cart</span></a>
+      </nav>
+    </div>
+  </header>
+  <main>
     <section class="hero-banner">
-      <div class="place-title">
-        <h2>Traktir Pushkin</h2>
-        <ul class="place-features">
-          <li class="place-feature">$$</li>
-          <li class="place-feature">European</li>
-        </ul>
-        <p class="place-delivery-time">25 - 35 Min</p>
-      </div>
+      <div class="hero-banner-wrapper container">
+          <div class="place-title-wrapper">
+            <h2>Traktir Pushkin</h2>
+            <div class="place-info">
+              <ul class="place-features">
+                <li class="place-feature">$$</li>
+                <li class="place-feature">European</li>
+              </ul>
+              <p class="place-delivery-time">25 - 35 Min</p>
+            </div>
+          </div>
+      </div>   
     </section>
     <section class="place-menu">
       <section class="menu-tabs">
-        <ul class="tabs-list">
-          <li class="tabs-item tabs-item-current"><a href="">Appetizer</a></li>
-          <li class="tabs-item"><a href="#">Salads</a></li>
-          <li class="tabs-item"><a href="#">Soups</a></li>
-          <li class="tabs-item"><a href="#">Main course</a></li>
-          <li class="tabs-item"><a href="#">Side dishes</a></li>
-          <li class="tabs-item"><a href="#">Desserts</a></li>
-        </ul>
+        <div class="container">
+          <ul class="tabs-list">
+            <li class="tabs-item tabs-item-current"><a href="">Appetizer</a></li>
+            <li class="tabs-item"><a href="#">Salads</a></li>
+            <li class="tabs-item"><a href="#">Soups</a></li>
+            <li class="tabs-item"><a href="#">Main course</a></li>
+            <li class="tabs-item"><a href="#">Side dishes</a></li>
+            <li class="tabs-item"><a href="#">Desserts</a></li>
+          </ul> 
+        </div>
       </section>
-      <h2>Appetizer</h2>
-      <ul class="menu-list">
-        <li class="menu-item">
-          <a href="#">
-            <div class="appetizer-info">
-              <p class="appetizer-title">Herring on the Borodino bread</p>
-              <p class="appetizer-subtitle">With egg and cucumber</p>
-              <b class="appetizer-price">$5</b>
-            </div>
-            <img src="img/appetizer/appetizer001.jpg" width="170" height="160" alt="Herring on the Borodino bread">  
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="#">
-            <div class="appetizer-info">
-              <p class="appetizer-title">Pickles assorted</p>
-              <p class="appetizer-subtitle">With russian love</p>
-              <b class="appetizer-price">$7</b>
-            </div>
-            <img src="img/appetizer/appetizer002.jpg" width="170" height="160" alt="Pickles assorted">  
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="#">
-            <div class="appetizer-info">
-              <p class="appetizer-title">Marinated mushrooms</p>
-              <p class="appetizer-subtitle">From Siberian forest</p>
-              <b class="appetizer-price">$6.50</b>
-            </div>
-            <img src="img/appetizer/appetizer003.jpg" width="170" height="160" alt="Marinated mushrooms">  
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="#">
-            <div class="appetizer-info">
-              <p class="appetizer-title">Home fat with mustard</p>
-              <p class="appetizer-subtitle">Elegant taste</p>
-              <b class="appetizer-price">$7</b>
-            </div>
-            <img src="img/appetizer/appetizer004.jpg" width="170" height="160" alt="Home fat with mustard">  
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="#">
-            <div class="appetizer-info">
-              <p class="appetizer-title">Salted salmon</p>
-              <p class="appetizer-subtitle">Please, try with vodka</p>
-              <b class="appetizer-price">$7.90</b>
-            </div>
-            <img src="img/appetizer/appetizer005.jpg" width="170" height="160" alt="Salted salmon">  
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="#">
-            <div class="appetizer-info">
-              <p class="appetizer-title">Beef tongue with horseradish</p>
-              <p class="appetizer-subtitle">Our special meal</p>
-              <b class="appetizer-price">$7.30</b>
-            </div>
-            <img src="img/appetizer/appetizer006.jpg" width="170" height="160" alt="Beef tongue with horseradish"> 
-          </a>
-        </li> 
-      </ul>
+      <div class="container">
+          <h2>Appetizer</h2>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="#">
+                <div class="appetizer-info">
+                  <p class="appetizer-title">Herring on the Borodino bread</p>
+                  <p class="appetizer-subtitle">With egg and cucumber</p>
+                  <b class="appetizer-price">$5</b>
+                </div>
+                <img src="img/appetizer/appetizer001.jpg" width="170" height="160" alt="Herring on the Borodino bread">  
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <div class="appetizer-info">
+                  <p class="appetizer-title">Pickles assorted</p>
+                  <p class="appetizer-subtitle">With russian love</p>
+                  <b class="appetizer-price">$7</b>
+                </div>
+                <img src="img/appetizer/appetizer002.jpg" width="170" height="160" alt="Pickles assorted">  
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <div class="appetizer-info">
+                  <p class="appetizer-title">Marinated mushrooms</p>
+                  <p class="appetizer-subtitle">From Siberian forest</p>
+                  <b class="appetizer-price">$6.50</b>
+                </div>
+                <img src="img/appetizer/appetizer003.jpg" width="170" height="160" alt="Marinated mushrooms">  
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <div class="appetizer-info">
+                  <p class="appetizer-title">Home fat with mustard</p>
+                  <p class="appetizer-subtitle">Elegant taste</p>
+                  <b class="appetizer-price">$7</b>
+                </div>
+                <img src="img/appetizer/appetizer004.jpg" width="170" height="160" alt="Home fat with mustard">  
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <div class="appetizer-info">
+                  <p class="appetizer-title">Salted salmon</p>
+                  <p class="appetizer-subtitle">Please, try with vodka</p>
+                  <b class="appetizer-price">$7.90</b>
+                </div>
+                <img src="img/appetizer/appetizer005.jpg" width="170" height="160" alt="Salted salmon">  
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <div class="appetizer-info">
+                  <p class="appetizer-title">Beef tongue with horseradish</p>
+                  <p class="appetizer-subtitle">Our special meal</p>
+                  <b class="appetizer-price">$7.30</b>
+                </div>
+                <img src="img/appetizer/appetizer006.jpg" width="170" height="160" alt="Beef tongue with horseradish"> 
+              </a>
+            </li> 
+          </ul>
+      </div>
     </section>
   </main>
   <footer class="page_footer">
-    <div class="footer-log">
-      <a href="index.html"><img src="./img/ic_white_logo.svg" width="192" height="20" alt="UserEATS logotype"><span class="visually-hidden">UberEATS</span></a>
-    </div>
-    <section class="footer-navigation">
-      <h2 class="visually-hidden">Footer Navigation</h2>
-      <div class="footer-nav-left">
-        <select name="language-select" id="language-select">
-          <option value="en">English</option>
-          <option value="de">German</option>
-          <option value="es">Spanish</option>
-        </select>
-        <div class="footer-social">
-          <b><span class="social-hash">#</span>UberEats</b>
-          <ul class="footer-social-list">
-            <li class="footer-social-item"><a href="#"><span class="visually-hidden">Our Facebook</span></a></li>
-            <li class="footer-social-item"><a href="#"><span class="visually-hidden">Our Twitter</span></a></li>
-            <li class="footer-social-item"><a href="#"><span class="visually-hidden">Our Instagram</span></a></li>
-          </ul>
+    <div class="footer-wrapper container">
+      <div class="footer-logo">
+          <a href="index.html"><img src="./img/ic_white_logo.svg" width="192" height="20" alt="UserEATS logotype"><span class="visually-hidden">UberEATS</span></a>
         </div>
-      </div>
-      <div class="footer-site-navigation">
-        <ul class="footer-site-navigation-list">
-          <li class="site-navigation-item">
-            <a href="#">About UberEats</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">Become a Delivery Partner</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">Become a Restaurant Partner</a>
-          </li>
-        </ul>
-        <ul class="footer-site-navigation-list">
-          <li class="site-navigation-item">
-            <a href="#">See all cities</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">Pricing</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">Help</a>
-          </li>
-          <li class="site-navigation-item">
-            <a href="#">FAQs</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <div class="footer-mobile-store-links">
-      <a class="footer-store store-apple" href="#"><span class="visually-hidden">On the AppStore</span></a>
-      <a class="footer-store store-google" href="#"><span class="visually-hidden">On the PlayMarket</span></a>
-    </div>
-    <div class="footer-copyright">
-      <p class="copyright">© 2017 Uber Technologies Inc.</p>
-      <a class="copyright-link" href="#">Privacy</a>
-      <a class="copyright-link" href="#">Terms</a>
+        <section class="footer-navigation">
+          <h2 class="visually-hidden">Footer Navigation</h2>
+          <div class="footer-nav-left">
+            <label class="custom-select" for="language-select">
+              <select class="footer-language-select" name="language-select" id="language-select">
+                <option value="en">English</option>
+                <option value="de">German</option>
+                <option value="es">Spanish</option>
+              </select>
+            </label>
+            <div class="footer-social">
+              <b><span class="social-hash">#</span>UberEats</b>
+              <ul class="footer-social-list">
+                <li class="footer-social-item social-fb"><a href="#"><span class="visually-hidden">Our Facebook</span></a></li>
+                <li class="footer-social-item social-tw"><a href="#"><span class="visually-hidden">Our Twitter</span></a></li>
+                <li class="footer-social-item social-inst"><a href="#"><span class="visually-hidden">Our Instagram</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="footer-site-navigation-list">
+            <li class="site-navigation-item">
+              <a href="#">About UberEats</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="#">Become a Delivery Partner</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="#">Become a Restaurant Partner</a>
+            </li>
+          </ul>
+          <ul class="footer-site-navigation-list">
+            <li class="site-navigation-item">
+              <a href="#">See all cities</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="#">Pricing</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="#">Help</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="#">FAQs</a>
+            </li>
+          </ul>
+        </section>
+        <div class="footer-mobile-store-links">
+          <a class="footer-store store-apple" href="#"><span class="visually-hidden">On the AppStore</span></a>
+          <a class="footer-store store-google" href="#"><span class="visually-hidden">On the PlayMarket</span></a>
+        </div>
+        <div class="footer-copyright">
+          <p class="copyright">© 2017 Uber Technologies Inc.</p>
+          <a class="copyright-link" href="#">Privacy</a>
+          <a class="copyright-link" href="#">Terms</a>
+        </div>
     </div>
   </footer>
   <a href="#page-top" class="up-link"><span class="visually-hidden">Go to the Top</span></a>
