@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(27, 29, 34);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.card {
+  width: 342px;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: rgba(40, 44, 53, 1.00);
+  color: #fff;
+}
+
+.card h3 {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  color: #fff;
+}
+
+.animal-info {
+  margin-top: 16px;
+  box-sizing: border-box;
+}
+
+.fact {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  font-style: italic;
+  color: rgb(83, 92, 116);
+}
+
+.card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul span {
+  font-weight: bold;
+}

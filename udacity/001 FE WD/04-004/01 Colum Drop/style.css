@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 50vh;
+}
+
+.blue {
+  background-color: darkblue;
+}
+
+.light_blue {
+  background-color: lightblue;
+}
+
+.green {
+  background-color: green;
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  .blue {
+    width: 25%;
+  }
+
+  .light_blue {
+    width: 75%;
+  }
+
+  .green {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .blue {
+    width: 25%;
+  }
+
+  .light_blue {
+    width: 50%;   
+  }
+
+  .green {
+    width: 25%;
+  }
+}
