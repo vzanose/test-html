@@ -1174,7 +1174,7 @@ input[thype="radio"].visually-hidden {
   display: none;
   position: fixed;
   top: 0;
-  left; 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0,0,0,0.5);
@@ -1218,7 +1218,7 @@ input[thype="radio"].visually-hidden {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;s
+  padding: 0;
   font-size: 14px;
   line-height: 24px;
   list-style: none;
