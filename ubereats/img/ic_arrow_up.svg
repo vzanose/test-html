@@ -1,5 +1,1 @@
-<svg width="16" height="26" viewBox="0 0 16 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="ic_arrow">
-<path id="Shape" d="M8.01832 0.0428432L8.05269 0.0102539L15.6741 7.25758L14.0755 8.70713L8.92858 3.88391V25H7.14287V3.85222L1.96207 8.70713L0.399567 7.25758L8.00314 0.0102539L8.01876 0.0428432H8.01832Z" fill="white"/>
-</g>
-</svg>
+<svg width="16" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.018.043L8.053.01l7.621 7.248-1.598 1.45-5.147-4.824V25H7.143V3.852l-5.18 4.855L.4 7.257 8.003.01l.016.033z" fill="#fff"/></svg>
